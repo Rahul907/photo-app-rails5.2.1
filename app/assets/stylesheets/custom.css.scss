@@ -65,24 +65,27 @@
   
   .jumbotron {
     text-align: center;
-    background-image: asset-url('meeting.png');
+    background-image: asset-url("meeting.png");
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 300px;
     color: #fff;
     font-family: 'Helvetica Neue' !important;
     font-stretch: expanded;
-    padding-top: 25px;
+    padding-top: 188px;
     padding-bottom: 25px;
     margin-left: 15px;
     margin-right: 15px;
     text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
-  /*
-    h2 {
-      font-size: 35px !important;
-      .lead {
-        font-family: 'Helvetica Neue' !important;
-        font-size: 30px !important;
-      }
-    } */
+  
+    // h2 {
+    //   font-size: 35px !important;
+    //   .lead {
+    //     font-family: 'Helvetica Neue' !important;
+    //     font-size: 30px !important;
+    //   }
+    // } 
   }
   
   .no-left-padding {
